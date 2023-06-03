@@ -1,0 +1,15 @@
+body{
+    margin: 0%;
+}
+.middle-container{
+   background-image: url("https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=865&q=80");
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.middle-container h1{
+    color: rgb(233, 16, 16);
+    background-size: cover;
+}

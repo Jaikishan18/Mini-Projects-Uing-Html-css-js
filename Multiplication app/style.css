@@ -1,0 +1,52 @@
+html,body{
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+     flex-direction: column; 
+    height: 100vh; 
+    text-align: center; 
+    background: yellowgreen;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.form{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.input{
+   display: block; 
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 25px;
+  color:rgb(216, 49, 82) ;
+  border-radius: 3px;
+  border: solid rgba(165, 239, 5, 0.915);
+
+}
+
+.button{
+    padding: 5px;
+    color: whitesmoke;
+    margin-top: 8px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    background-color: rgb(255, 0, 72);
+}
+.score{
+    text-align: right;
+    color: darkgreen;
+    font-size: larger;
+}
+.score:hover{
+    filter: brightness(0.8)
+}
+.form h1{
+    color: rgb(157, 223, 51);
+}

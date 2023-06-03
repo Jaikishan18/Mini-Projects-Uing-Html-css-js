@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: lightgray;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+input{
+    width: 50%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 0.3 rgba(rgb(33, 29, 29), green, rgb(20, 20, 25), alpha);
+}
+#search-btn{
+    padding: 8px;
+    border: none;
+    padding: 0px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+button:hover{
+    background-color: darkblue;
+}
+.search-result img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform .3s ease-in-out;
+}
+.search-results{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+.showmore-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  transition: background-color .3s ease-in-out;
+}
+#showmore-btn{
+    position: absolute;
+    bottom: o;
+    right: 25px;
+    padding: 8px;
+    border: soild black;
+    outline: none;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-size: large;
+    margin-left: 600px;
+}
+#showmore-btn:hover{
+    background-color: azure;
+}
+.search-result{
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    box-shadow:0 0 5px rgba(98, 4, 4, 0.5) ;
+}
+.search-result:hover{
+    transform: scale(1.5);
+}
+.search-result a{
+    display: block;
+    padding: 10px;
+    color: rgb(169, 114, 114);
+    text-decoration: none;
+    transition: background-color .3s ease-in-out;
+}
+.search-result a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width:480px) {
+    .search-result{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px) {
+    .search-result{
+        width: 45%;
+    }
+    form{
+        flex-direction: column;
+    }
+    #search-input{
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    #search-btn{
+        width: 50%;
+    }
+}

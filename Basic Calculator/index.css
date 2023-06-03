@@ -1,0 +1,52 @@
+ html,body{
+    margin: 0%;
+    box-sizing: border-box;
+ }
+.container{
+    max-width: 500px;
+    padding: 30px;
+    background-color: lightgray;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0,0,0 0.3);
+    margin-top: 50px;
+    border-radius: 5px;
+    }
+input{
+    width: 100%;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0 0.3) ;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+button{
+    padding: 9px;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5)
+}
+button:hover{
+    background-color: rgb(215, 238, 230);
+}
+
+.clear{
+    background-color: orange;
+    color: white;
+}
+ button.operator{
+    background-color: rgb(88, 88, 226);
+}
+.number{
+    background-color: white;
+}
+.equal{
+    background-color: rgb(10, 235, 10);
+    grid-row: span 3;
+}
